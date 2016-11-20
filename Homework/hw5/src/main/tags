@@ -1,0 +1,179 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADT	/home/DJF/hw5/src/main/adtTest.h	28;"	d
+ADT_TEST_H	/home/DJF/hw5/src/main/adtTest.h	9;"	d
+AdtAddCmd	/home/DJF/hw5/src/main/adtTest.h	/^CmdClass(AdtAddCmd);$/;"	v
+AdtAddCmd::exec	/home/DJF/hw5/src/main/adtTest.cpp	/^AdtAddCmd::exec(const string& option)$/;"	f	class:AdtAddCmd	signature:(const string& option)
+AdtAddCmd::help	/home/DJF/hw5/src/main/adtTest.cpp	/^AdtAddCmd::help() const$/;"	f	class:AdtAddCmd	signature:() const
+AdtAddCmd::usage	/home/DJF/hw5/src/main/adtTest.cpp	/^AdtAddCmd::usage(ostream& os) const$/;"	f	class:AdtAddCmd	signature:(ostream& os) const
+AdtDeleteCmd	/home/DJF/hw5/src/main/adtTest.h	/^CmdClass(AdtDeleteCmd);$/;"	v
+AdtDeleteCmd::exec	/home/DJF/hw5/src/main/adtTest.cpp	/^AdtDeleteCmd::exec(const string& option)$/;"	f	class:AdtDeleteCmd	signature:(const string& option)
+AdtDeleteCmd::help	/home/DJF/hw5/src/main/adtTest.cpp	/^AdtDeleteCmd::help() const$/;"	f	class:AdtDeleteCmd	signature:() const
+AdtDeleteCmd::usage	/home/DJF/hw5/src/main/adtTest.cpp	/^AdtDeleteCmd::usage(ostream& os) const$/;"	f	class:AdtDeleteCmd	signature:(ostream& os) const
+AdtPrintCmd	/home/DJF/hw5/src/main/adtTest.h	/^CmdClass(AdtPrintCmd);$/;"	v
+AdtPrintCmd::exec	/home/DJF/hw5/src/main/adtTest.cpp	/^AdtPrintCmd::exec(const string& option)$/;"	f	class:AdtPrintCmd	signature:(const string& option)
+AdtPrintCmd::help	/home/DJF/hw5/src/main/adtTest.cpp	/^AdtPrintCmd::help() const$/;"	f	class:AdtPrintCmd	signature:() const
+AdtPrintCmd::usage	/home/DJF/hw5/src/main/adtTest.cpp	/^AdtPrintCmd::usage(ostream& os) const$/;"	f	class:AdtPrintCmd	signature:(ostream& os) const
+AdtResetCmd	/home/DJF/hw5/src/main/adtTest.h	/^CmdClass(AdtResetCmd);$/;"	v
+AdtResetCmd::exec	/home/DJF/hw5/src/main/adtTest.cpp	/^AdtResetCmd::exec(const string& option)$/;"	f	class:AdtResetCmd	signature:(const string& option)
+AdtResetCmd::help	/home/DJF/hw5/src/main/adtTest.cpp	/^AdtResetCmd::help() const$/;"	f	class:AdtResetCmd	signature:() const
+AdtResetCmd::usage	/home/DJF/hw5/src/main/adtTest.cpp	/^AdtResetCmd::usage(ostream& os) const$/;"	f	class:AdtResetCmd	signature:(ostream& os) const
+AdtSortCmd	/home/DJF/hw5/src/main/adtTest.h	/^CmdClass(AdtSortCmd);$/;"	v
+AdtSortCmd::exec	/home/DJF/hw5/src/main/adtTest.cpp	/^AdtSortCmd::exec(const string& option)$/;"	f	class:AdtSortCmd	signature:(const string& option)
+AdtSortCmd::help	/home/DJF/hw5/src/main/adtTest.cpp	/^AdtSortCmd::help() const$/;"	f	class:AdtSortCmd	signature:() const
+AdtSortCmd::usage	/home/DJF/hw5/src/main/adtTest.cpp	/^AdtSortCmd::usage(ostream& os) const$/;"	f	class:AdtSortCmd	signature:(ostream& os) const
+AdtTest	/home/DJF/hw5/src/main/adtTest.h	/^class AdtTest$/;"	c
+AdtTest::AdtTestObj	/home/DJF/hw5/src/main/adtTest.h	/^   void add() { add(AdtTestObj()); }$/;"	p	signature:()
+AdtTest::AdtTestObj::setLen	/home/DJF/hw5/src/main/adtTest.h	/^   void reset(int len) { deleteAll(); AdtTestObj::setLen(len); }$/;"	p	class:AdtTest::AdtTestObj	signature:(len)
+AdtTest::_container	/home/DJF/hw5/src/main/adtTest.h	/^   AdtType<AdtTestObj>   _container;$/;"	m	class:AdtTest	access:private
+AdtTest::add	/home/DJF/hw5/src/main/adtTest.h	/^   void add() { add(AdtTestObj()); }$/;"	f	class:AdtTest	access:public	signature:()
+AdtTest::add	/home/DJF/hw5/src/main/adtTest.h	/^   void add(const AdtTestObj& o) {$/;"	f	class:AdtTest	access:public	signature:(const AdtTestObj& o)
+AdtTest::clear	/home/DJF/hw5/src/main/adtTest.h	/^   void deleteAll() { _container.clear(); }$/;"	p	signature:()
+AdtTest::deleteAll	/home/DJF/hw5/src/main/adtTest.h	/^   void deleteAll() { _container.clear(); }$/;"	f	class:AdtTest	access:public	signature:()
+AdtTest::deleteBack	/home/DJF/hw5/src/main/adtTest.h	/^   void deleteBack(size_t repeat = 1) {$/;"	f	class:AdtTest	access:public	signature:(size_t repeat = 1)
+AdtTest::deleteFront	/home/DJF/hw5/src/main/adtTest.h	/^   void deleteFront(size_t repeat = 1) {$/;"	f	class:AdtTest	access:public	signature:(size_t repeat = 1)
+AdtTest::deleteObj	/home/DJF/hw5/src/main/adtTest.h	/^   bool deleteObj(const AdtTestObj& o) { return _container.erase(o); }$/;"	f	class:AdtTest	access:public	signature:(const AdtTestObj& o)
+AdtTest::deleteRandom	/home/DJF/hw5/src/main/adtTest.h	/^   void deleteRandom(size_t repeat = 1) {$/;"	f	class:AdtTest	access:public	signature:(size_t repeat = 1)
+AdtTest::endl	/home/DJF/hw5/src/main/adtTest.h	/^      cout << "=== ADT (" << ADT << ") ===" << endl;$/;"	l
+AdtTest::endl	/home/DJF/hw5/src/main/adtTest.h	/^      cout << endl;$/;"	l
+AdtTest::endl	/home/DJF/hw5/src/main/adtTest.h	/^      if (idx % 5 == r) cout << endl;$/;"	l
+AdtTest::getPos	/home/DJF/hw5/src/main/adtTest.h	/^   AdtType<AdtTestObj>::iterator getPos(size_t pos) {$/;"	f	class:AdtTest	access:private	signature:(size_t pos)
+AdtTest::idx	/home/DJF/hw5/src/main/adtTest.h	/^      size_t idx = 0;$/;"	l
+AdtTest::insert	/home/DJF/hw5/src/main/adtTest.h	/^      _container.insert(o);$/;"	p	signature:(o)
+AdtTest::li	/home/DJF/hw5/src/main/adtTest.h	/^           << setw(3) << right << *li << "   ";$/;"	l
+AdtTest::li	/home/DJF/hw5/src/main/adtTest.h	/^      AdtType<AdtTestObj>::iterator li = _container.begin();$/;"	l
+AdtTest::li	/home/DJF/hw5/src/main/adtTest.h	/^      AdtType<AdtTestObj>::iterator li = _container.end(); --li;$/;"	l
+AdtTest::pop_back	/home/DJF/hw5/src/main/adtTest.h	/^      for (size_t i = 0; i < repeat; ++i) _container.pop_back(); }$/;"	p	signature:()
+AdtTest::pop_front	/home/DJF/hw5/src/main/adtTest.h	/^      for (size_t i = 0; i < repeat; ++i) _container.pop_front(); }$/;"	p	signature:()
+AdtTest::pos	/home/DJF/hw5/src/main/adtTest.h	/^         size_t pos = rnGen(s);$/;"	l
+AdtTest::print	/home/DJF/hw5/src/main/adtTest.h	/^         _container.print();  \/\/ for BST only$/;"	p	signature:()
+AdtTest::print	/home/DJF/hw5/src/main/adtTest.h	/^   void print(bool reverse = false, bool verbose = false) {$/;"	f	class:AdtTest	access:public	signature:(bool reverse = false, bool verbose = false)
+AdtTest::printBackward	/home/DJF/hw5/src/main/adtTest.h	/^   void printBackward() {$/;"	f	class:AdtTest	access:private	signature:()
+AdtTest::printData	/home/DJF/hw5/src/main/adtTest.h	/^   void printData(size_t idx, AdtType<AdtTestObj>::iterator li,$/;"	f	class:AdtTest	access:private	signature:(size_t idx, AdtType<AdtTestObj>::iterator li, size_t r)
+AdtTest::printForward	/home/DJF/hw5/src/main/adtTest.h	/^   void printForward() {$/;"	f	class:AdtTest	access:private	signature:()
+AdtTest::r	/home/DJF/hw5/src/main/adtTest.h	/^      size_t r = (idx + 1) % 5;$/;"	l
+AdtTest::reset	/home/DJF/hw5/src/main/adtTest.h	/^   void reset(int len) { deleteAll(); AdtTestObj::setLen(len); }$/;"	f	class:AdtTest	access:public	signature:(int len)
+AdtTest::s	/home/DJF/hw5/src/main/adtTest.h	/^      size_t s = _container.size();$/;"	l
+AdtTest::sort	/home/DJF/hw5/src/main/adtTest.h	/^   void sort() { _container.sort(); }$/;"	f	class:AdtTest	access:public	signature:()
+AdtTest::sort	/home/DJF/hw5/src/main/adtTest.h	/^   void sort() { _container.sort(); }$/;"	p	signature:()
+AdtTestObj	/home/DJF/hw5/src/main/adtTest.cpp	/^         cerr << "Error: \\"" << AdtTestObj(options[1]) << "\\" is not found!\\n";$/;"	p	file:	signature:(options[1])
+AdtTestObj	/home/DJF/hw5/src/main/adtTest.cpp	/^AdtTestObj::AdtTestObj()$/;"	f	class:AdtTestObj	signature:()
+AdtTestObj	/home/DJF/hw5/src/main/adtTest.h	/^   AdtTestObj();$/;"	p	class:AdtTestObj	access:public	signature:()
+AdtTestObj	/home/DJF/hw5/src/main/adtTest.h	/^   AdtTestObj(const AdtTestObj& o) : _str(o._str) {}$/;"	f	class:AdtTestObj	access:public	signature:(const AdtTestObj& o)
+AdtTestObj	/home/DJF/hw5/src/main/adtTest.h	/^   AdtTestObj(const string& s)$/;"	f	class:AdtTestObj	access:public	signature:(const string& s)
+AdtTestObj	/home/DJF/hw5/src/main/adtTest.h	/^   void add() { add(AdtTestObj()); }$/;"	p	signature:()
+AdtTestObj	/home/DJF/hw5/src/main/adtTest.h	/^class AdtTestObj$/;"	c
+AdtTestObj::AdtTestObj	/home/DJF/hw5/src/main/adtTest.cpp	/^AdtTestObj::AdtTestObj()$/;"	f	class:AdtTestObj	signature:()
+AdtTestObj::AdtTestObj	/home/DJF/hw5/src/main/adtTest.h	/^   AdtTestObj();$/;"	p	class:AdtTestObj	access:public	signature:()
+AdtTestObj::AdtTestObj	/home/DJF/hw5/src/main/adtTest.h	/^   AdtTestObj(const AdtTestObj& o) : _str(o._str) {}$/;"	f	class:AdtTestObj	access:public	signature:(const AdtTestObj& o)
+AdtTestObj::AdtTestObj	/home/DJF/hw5/src/main/adtTest.h	/^   AdtTestObj(const string& s)$/;"	f	class:AdtTestObj	access:public	signature:(const string& s)
+AdtTestObj::_str	/home/DJF/hw5/src/main/adtTest.h	/^   string      _str;  \/\/ _str.length() should alywas <= _strLen$/;"	m	class:AdtTestObj	access:private
+AdtTestObj::_strLen	/home/DJF/hw5/src/main/adtTest.cpp	/^int AdtTestObj::_strLen = 5;$/;"	m	class:AdtTestObj	file:
+AdtTestObj::_strLen	/home/DJF/hw5/src/main/adtTest.h	/^   static int  _strLen;$/;"	m	class:AdtTestObj	access:private
+AdtTestObj::operator <	/home/DJF/hw5/src/main/adtTest.h	/^   bool operator < (const AdtTestObj& o) const { return (_str < o._str); }$/;"	f	class:AdtTestObj	access:public	signature:(const AdtTestObj& o) const
+AdtTestObj::operator <<	/home/DJF/hw5/src/main/adtTest.h	/^   friend ostream& operator << (ostream& os, const AdtTestObj& o);$/;"	p	class:AdtTestObj	access:friend	signature:(ostream& os, const AdtTestObj& o)
+AdtTestObj::operator ==	/home/DJF/hw5/src/main/adtTest.h	/^   bool operator == (const AdtTestObj& o) const { return (_str == o._str); }$/;"	f	class:AdtTestObj	access:public	signature:(const AdtTestObj& o) const
+AdtTestObj::resize	/home/DJF/hw5/src/main/adtTest.h	/^   : _str(s) { if (int(_str.size()) > _strLen) _str.resize(_strLen); }$/;"	p	signature:(_strLen)
+AdtTestObj::setLen	/home/DJF/hw5/src/main/adtTest.h	/^   static void setLen(int len) { _strLen = len; }$/;"	f	class:AdtTestObj	access:public	signature:(int len)
+AdtType	/home/DJF/hw5/src/main/adtTest.h	29;"	d
+BINDIR	/home/DJF/hw5/src/main/Makefile	/^BINDIR    = ..\/..\/bin$/;"	m
+DO_BACK	/home/DJF/hw5/src/main/adtTest.cpp	/^      enum { DO_FRONT, DO_BACK, DO_RANDOM } delType;$/;"	e	enum:__anon1	file:
+DO_FRONT	/home/DJF/hw5/src/main/adtTest.cpp	/^      enum { DO_FRONT, DO_BACK, DO_RANDOM } delType;$/;"	e	enum:__anon1	file:
+DO_RANDOM	/home/DJF/hw5/src/main/adtTest.cpp	/^      enum { DO_FRONT, DO_BACK, DO_RANDOM } delType;$/;"	e	enum:__anon1	file:
+EXTHDRS	/home/DJF/hw5/src/main/Makefile	/^EXTHDRS   = $/;"	m
+PKGFLAG	/home/DJF/hw5/src/main/Makefile	/^PKGFLAG   = $(ADTFLAG)$/;"	m
+RANDOM_ACCESS	/home/DJF/hw5/src/main/adtTest.h	26;"	d
+TARGET	/home/DJF/hw5/src/main/Makefile	/^TARGET    = $(BINDIR)\/$(EXEC)$/;"	m
+TEST_ARRAY	/home/DJF/hw5/src/main/adtTest.h	24;"	d
+TEST_BST	/home/DJF/hw5/src/main/adtTest.h	25;"	d
+_container	/home/DJF/hw5/src/main/adtTest.h	/^   AdtType<AdtTestObj>   _container;$/;"	m	class:AdtTest	access:private
+_str	/home/DJF/hw5/src/main/adtTest.h	/^   string      _str;  \/\/ _str.length() should alywas <= _strLen$/;"	m	class:AdtTestObj	access:private
+_strLen	/home/DJF/hw5/src/main/adtTest.cpp	/^int AdtTestObj::_strLen = 5;$/;"	m	class:AdtTestObj	file:
+_strLen	/home/DJF/hw5/src/main/adtTest.h	/^   static int  _strLen;$/;"	m	class:AdtTestObj	access:private
+add	/home/DJF/hw5/src/main/adtTest.h	/^   void add() { add(AdtTestObj()); }$/;"	f	class:AdtTest	access:public	signature:()
+add	/home/DJF/hw5/src/main/adtTest.h	/^   void add(const AdtTestObj& o) {$/;"	f	class:AdtTest	access:public	signature:(const AdtTestObj& o)
+adtTest	/home/DJF/hw5/src/main/adtTest.cpp	/^AdtTest adtTest;$/;"	v
+argc	/home/DJF/hw5/src/main/main.cpp	/^      cerr << "Error: illegal number of argument (" << argc << ")!!\\n";$/;"	l
+argv	/home/DJF/hw5/src/main/main.cpp	/^            cerr << "Error: cannot open file \\"" << argv[2] << "\\"!!\\n";$/;"	l
+argv	/home/DJF/hw5/src/main/main.cpp	/^         cerr << "Error: unknown argument \\"" << argv[1] << "\\"!!\\n";$/;"	l
+clear	/home/DJF/hw5/src/main/adtTest.h	/^   void deleteAll() { _container.clear(); }$/;"	p	signature:()
+delType	/home/DJF/hw5/src/main/adtTest.cpp	/^      enum { DO_FRONT, DO_BACK, DO_RANDOM } delType;$/;"	l
+deleteAll	/home/DJF/hw5/src/main/adtTest.h	/^   void deleteAll() { _container.clear(); }$/;"	f	class:AdtTest	access:public	signature:()
+deleteBack	/home/DJF/hw5/src/main/adtTest.cpp	/^         case DO_BACK  : adtTest.deleteBack(iOpt); break;$/;"	p	file:	signature:(iOpt)
+deleteBack	/home/DJF/hw5/src/main/adtTest.h	/^   void deleteBack(size_t repeat = 1) {$/;"	f	class:AdtTest	access:public	signature:(size_t repeat = 1)
+deleteFront	/home/DJF/hw5/src/main/adtTest.cpp	/^         case DO_FRONT : adtTest.deleteFront(iOpt); break;$/;"	p	file:	signature:(iOpt)
+deleteFront	/home/DJF/hw5/src/main/adtTest.h	/^   void deleteFront(size_t repeat = 1) {$/;"	f	class:AdtTest	access:public	signature:(size_t repeat = 1)
+deleteObj	/home/DJF/hw5/src/main/adtTest.h	/^   bool deleteObj(const AdtTestObj& o) { return _container.erase(o); }$/;"	f	class:AdtTest	access:public	signature:(const AdtTestObj& o)
+deleteRandom	/home/DJF/hw5/src/main/adtTest.cpp	/^         case DO_RANDOM: adtTest.deleteRandom(iOpt); break;$/;"	p	file:	signature:(iOpt)
+deleteRandom	/home/DJF/hw5/src/main/adtTest.h	/^   void deleteRandom(size_t repeat = 1) {$/;"	f	class:AdtTest	access:public	signature:(size_t repeat = 1)
+dof	/home/DJF/hw5/src/main/main.cpp	/^   ifstream dof;$/;"	l
+endl	/home/DJF/hw5/src/main/adtTest.cpp	/^      cerr << "Registering \\"adt\\" commands fails... exiting" << endl;$/;"	l
+endl	/home/DJF/hw5/src/main/adtTest.cpp	/^   os << "ADTDelete < -All | -String (string str) |" << endl$/;"	l
+endl	/home/DJF/hw5/src/main/adtTest.cpp	/^   os << "Usage: ADTPrint [-Reversed]" << endl;$/;"	l
+endl	/home/DJF/hw5/src/main/adtTest.cpp	/^   os << "Usage: ADTReset <(size_t strLen)>" << endl;$/;"	l
+endl	/home/DJF/hw5/src/main/adtTest.cpp	/^   os << "Usage: ADTSort" << endl;$/;"	l
+endl	/home/DJF/hw5/src/main/adtTest.h	/^      cout << "=== ADT (" << ADT << ") ===" << endl;$/;"	l
+endl	/home/DJF/hw5/src/main/adtTest.h	/^      cout << endl;$/;"	l
+endl	/home/DJF/hw5/src/main/adtTest.h	/^      if (idx % 5 == r) cout << endl;$/;"	l
+endl	/home/DJF/hw5/src/main/main.cpp	/^      cout << endl;  \/\/ a blank line between each command$/;"	l
+endl	/home/DJF/hw5/src/main/main.cpp	/^   cout << "Usage: adtTest.xxxx [ -File < doFile > ]" << endl;$/;"	l
+exec	/home/DJF/hw5/src/main/adtTest.cpp	/^AdtAddCmd::exec(const string& option)$/;"	f	class:AdtAddCmd	signature:(const string& option)
+exec	/home/DJF/hw5/src/main/adtTest.cpp	/^AdtDeleteCmd::exec(const string& option)$/;"	f	class:AdtDeleteCmd	signature:(const string& option)
+exec	/home/DJF/hw5/src/main/adtTest.cpp	/^AdtPrintCmd::exec(const string& option)$/;"	f	class:AdtPrintCmd	signature:(const string& option)
+exec	/home/DJF/hw5/src/main/adtTest.cpp	/^AdtResetCmd::exec(const string& option)$/;"	f	class:AdtResetCmd	signature:(const string& option)
+exec	/home/DJF/hw5/src/main/adtTest.cpp	/^AdtSortCmd::exec(const string& option)$/;"	f	class:AdtSortCmd	signature:(const string& option)
+getPos	/home/DJF/hw5/src/main/adtTest.h	/^   AdtType<AdtTestObj>::iterator getPos(size_t pos) {$/;"	f	class:AdtTest	access:private	signature:(size_t pos)
+help	/home/DJF/hw5/src/main/adtTest.cpp	/^AdtAddCmd::help() const$/;"	f	class:AdtAddCmd	signature:() const
+help	/home/DJF/hw5/src/main/adtTest.cpp	/^AdtDeleteCmd::help() const$/;"	f	class:AdtDeleteCmd	signature:() const
+help	/home/DJF/hw5/src/main/adtTest.cpp	/^AdtPrintCmd::help() const$/;"	f	class:AdtPrintCmd	signature:() const
+help	/home/DJF/hw5/src/main/adtTest.cpp	/^AdtResetCmd::help() const$/;"	f	class:AdtResetCmd	signature:() const
+help	/home/DJF/hw5/src/main/adtTest.cpp	/^AdtSortCmd::help() const$/;"	f	class:AdtSortCmd	signature:() const
+iOpt	/home/DJF/hw5/src/main/adtTest.cpp	/^      int iOpt;$/;"	l
+idx	/home/DJF/hw5/src/main/adtTest.h	/^      size_t idx = 0;$/;"	l
+initAdtCmd	/home/DJF/hw5/src/main/adtTest.cpp	/^initAdtCmd()$/;"	f	signature:()
+initAdtCmd	/home/DJF/hw5/src/main/main.cpp	/^extern bool initAdtCmd();$/;"	p	file:	signature:()
+initCommonCmd	/home/DJF/hw5/src/main/main.cpp	/^extern bool initCommonCmd();$/;"	p	file:	signature:()
+insert	/home/DJF/hw5/src/main/adtTest.h	/^      _container.insert(o);$/;"	p	signature:(o)
+len	/home/DJF/hw5/src/main/adtTest.cpp	/^   int len;$/;"	l
+li	/home/DJF/hw5/src/main/adtTest.h	/^           << setw(3) << right << *li << "   ";$/;"	l
+li	/home/DJF/hw5/src/main/adtTest.h	/^      AdtType<AdtTestObj>::iterator li = _container.begin();$/;"	l
+li	/home/DJF/hw5/src/main/adtTest.h	/^      AdtType<AdtTestObj>::iterator li = _container.end(); --li;$/;"	l
+main	/home/DJF/hw5/src/main/main.cpp	/^main(int argc, char** argv)$/;"	f	signature:(int argc, char** argv)
+myexit	/home/DJF/hw5/src/main/main.cpp	/^myexit()$/;"	f	file:	signature:()
+nToken	/home/DJF/hw5/src/main/adtTest.cpp	/^   unsigned nToken = options.size();$/;"	l
+operator <	/home/DJF/hw5/src/main/adtTest.h	/^   bool operator < (const AdtTestObj& o) const { return (_str < o._str); }$/;"	f	class:AdtTestObj	access:public	signature:(const AdtTestObj& o) const
+operator <<	/home/DJF/hw5/src/main/adtTest.cpp	/^ostream& operator << (ostream& os, const AdtTestObj& o)$/;"	f	signature:(ostream& os, const AdtTestObj& o)
+operator <<	/home/DJF/hw5/src/main/adtTest.h	/^   friend ostream& operator << (ostream& os, const AdtTestObj& o);$/;"	p	class:AdtTestObj	access:friend	signature:(ostream& os, const AdtTestObj& o)
+operator ==	/home/DJF/hw5/src/main/adtTest.h	/^   bool operator == (const AdtTestObj& o) const { return (_str == o._str); }$/;"	f	class:AdtTestObj	access:public	signature:(const AdtTestObj& o) const
+options	/home/DJF/hw5/src/main/adtTest.cpp	/^   vector<string> options;$/;"	l
+pop_back	/home/DJF/hw5/src/main/adtTest.h	/^      for (size_t i = 0; i < repeat; ++i) _container.pop_back(); }$/;"	p	signature:()
+pop_front	/home/DJF/hw5/src/main/adtTest.h	/^      for (size_t i = 0; i < repeat; ++i) _container.pop_front(); }$/;"	p	signature:()
+pos	/home/DJF/hw5/src/main/adtTest.h	/^         size_t pos = rnGen(s);$/;"	l
+print	/home/DJF/hw5/src/main/adtTest.cpp	/^   adtTest.print(reversed, verbose);$/;"	p	file:	signature:(reversed, verbose)
+print	/home/DJF/hw5/src/main/adtTest.h	/^         _container.print();  \/\/ for BST only$/;"	p	signature:()
+print	/home/DJF/hw5/src/main/adtTest.h	/^   void print(bool reverse = false, bool verbose = false) {$/;"	f	class:AdtTest	access:public	signature:(bool reverse = false, bool verbose = false)
+printBackward	/home/DJF/hw5/src/main/adtTest.h	/^   void printBackward() {$/;"	f	class:AdtTest	access:private	signature:()
+printData	/home/DJF/hw5/src/main/adtTest.h	/^   void printData(size_t idx, AdtType<AdtTestObj>::iterator li,$/;"	f	class:AdtTest	access:private	signature:(size_t idx, AdtType<AdtTestObj>::iterator li, size_t r)
+printForward	/home/DJF/hw5/src/main/adtTest.h	/^   void printForward() {$/;"	f	class:AdtTest	access:private	signature:()
+r	/home/DJF/hw5/src/main/adtTest.h	/^      size_t r = (idx + 1) % 5;$/;"	l
+repeats	/home/DJF/hw5/src/main/adtTest.cpp	/^      int repeats;$/;"	l
+reset	/home/DJF/hw5/src/main/adtTest.h	/^   void reset(int len) { deleteAll(); AdtTestObj::setLen(len); }$/;"	f	class:AdtTest	access:public	signature:(int len)
+reset	/home/DJF/hw5/src/main/main.cpp	/^   myUsage.reset();$/;"	p	file:	signature:()
+resize	/home/DJF/hw5/src/main/adtTest.cpp	/^   _str.resize(_strLen);$/;"	p	file:	signature:(_strLen)
+resize	/home/DJF/hw5/src/main/adtTest.h	/^   : _str(s) { if (int(_str.size()) > _strLen) _str.resize(_strLen); }$/;"	p	signature:(_strLen)
+s	/home/DJF/hw5/src/main/adtTest.h	/^      size_t s = _container.size();$/;"	l
+setLen	/home/DJF/hw5/src/main/adtTest.h	/^   static void setLen(int len) { _strLen = len; }$/;"	f	class:AdtTestObj	access:public	signature:(int len)
+setLen	/home/DJF/hw5/src/main/adtTest.h	/^   void reset(int len) { deleteAll(); AdtTestObj::setLen(len); }$/;"	p	class:AdtTest::AdtTestObj	signature:(len)
+sort	/home/DJF/hw5/src/main/adtTest.h	/^   void sort() { _container.sort(); }$/;"	f	class:AdtTest	access:public	signature:()
+sort	/home/DJF/hw5/src/main/adtTest.h	/^   void sort() { _container.sort(); }$/;"	p	signature:()
+token	/home/DJF/hw5/src/main/adtTest.cpp	/^   string token;$/;"	l
+usage	/home/DJF/hw5/src/main/adtTest.cpp	/^AdtAddCmd::usage(ostream& os) const$/;"	f	class:AdtAddCmd	signature:(ostream& os) const
+usage	/home/DJF/hw5/src/main/adtTest.cpp	/^AdtDeleteCmd::usage(ostream& os) const$/;"	f	class:AdtDeleteCmd	signature:(ostream& os) const
+usage	/home/DJF/hw5/src/main/adtTest.cpp	/^AdtPrintCmd::usage(ostream& os) const$/;"	f	class:AdtPrintCmd	signature:(ostream& os) const
+usage	/home/DJF/hw5/src/main/adtTest.cpp	/^AdtResetCmd::usage(ostream& os) const$/;"	f	class:AdtResetCmd	signature:(ostream& os) const
+usage	/home/DJF/hw5/src/main/adtTest.cpp	/^AdtSortCmd::usage(ostream& os) const$/;"	f	class:AdtSortCmd	signature:(ostream& os) const
+usage	/home/DJF/hw5/src/main/main.cpp	/^usage()$/;"	f	file:	signature:()

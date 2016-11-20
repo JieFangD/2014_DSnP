@@ -1,0 +1,10 @@
+_hw1/p1/p1a.h
+_hw1/p1/p1a.cpp
+_hw1/p1/p1b.cpp
+_hw1/p1/p1b.main.cpp
+_hw1/p1/Makefile
+_hw1/p1/p1d.out
+_hw1/p2/p2a.cpp
+_hw1/p2/p2b.cpp
+_hw1/p2/p2c.cpp
+_hw1/p3/p3.amgr.cpp

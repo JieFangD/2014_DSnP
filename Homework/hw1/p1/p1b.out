@@ -1,0 +1,29 @@
+The size of class P1a is 16
+============================
+Addresses of arr1b_1[5] are:
+&arr1b_1[0]: 0x7fff335e2f80
+&arr1b_1[1]: 0x7fff335e2f90
+&arr1b_1[2]: 0x7fff335e2fa0
+&arr1b_1[3]: 0x7fff335e2fb0
+&arr1b_1[4]: 0x7fff335e2fc0
+============================
+Addresses of arr1b_2[5] are:
+&arr1b_2[0]: 0x2428018
+&arr1b_2[1]: 0x2428028
+&arr1b_2[2]: 0x2428038
+&arr1b_2[3]: 0x2428048
+&arr1b_2[4]: 0x2428058
+&arr1b_2   : 0x7fff335e2fc8
+============================
+Addresses of arr1b_3[5] are:
+&arr1b_3[0]: 0x2428070
+&arr1b_3[1]: 0x2428078
+&arr1b_3[2]: 0x2428080
+&arr1b_3[3]: 0x2428088
+&arr1b_3[4]: 0x2428090
+Contents of arr1b_3[5] are:
+arr1b_3[0]: 0x24280a0
+arr1b_3[1]: 0x24280c0
+arr1b_3[2]: 0x24280e0
+arr1b_3[3]: 0x2428100
+arr1b_3[4]: 0x2428120

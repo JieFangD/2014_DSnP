@@ -1,0 +1,5 @@
+_hw1/p1/p1a.main.cpp
+_hw1/p3/p3.main.cpp
+_hw1/p3/p3.amgr.h
+_hw1/p3/p3.in
+_hw1/p3/p3.out.ref

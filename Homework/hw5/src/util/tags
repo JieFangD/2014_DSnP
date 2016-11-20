@@ -1,0 +1,255 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ARRAY_H	/home/DJF/hw5/src/util/array.h	10;"	d
+Array	/home/DJF/hw5/src/util/array.h	/^   Array() : _data(0), _size(0), _capacity(0) {}$/;"	f	class:Array	access:public	signature:()
+Array	/home/DJF/hw5/src/util/array.h	/^class Array$/;"	c
+Array::Array	/home/DJF/hw5/src/util/array.h	/^   Array() : _data(0), _size(0), _capacity(0) {}$/;"	f	class:Array	access:public	signature:()
+Array::_capacity	/home/DJF/hw5/src/util/array.h	/^   size_t       _capacity;   \/\/ max number of elements$/;"	m	class:Array	access:private
+Array::_data	/home/DJF/hw5/src/util/array.h	/^   T*           _data;$/;"	m	class:Array	access:private
+Array::_size	/home/DJF/hw5/src/util/array.h	/^   size_t       _size;       \/\/ number of valid elements$/;"	m	class:Array	access:private
+Array::begin	/home/DJF/hw5/src/util/array.h	/^   iterator begin() const { return 0; }$/;"	f	class:Array	access:public	signature:() const
+Array::clear	/home/DJF/hw5/src/util/array.h	/^   void clear() { }$/;"	f	class:Array	access:public	signature:()
+Array::empty	/home/DJF/hw5/src/util/array.h	/^   bool empty() const { return false; }$/;"	f	class:Array	access:public	signature:() const
+Array::end	/home/DJF/hw5/src/util/array.h	/^   iterator end() const { return 0; }$/;"	f	class:Array	access:public	signature:() const
+Array::erase	/home/DJF/hw5/src/util/array.h	/^   bool erase(const T& x) { return false; }$/;"	f	class:Array	access:public	signature:(const T& x)
+Array::erase	/home/DJF/hw5/src/util/array.h	/^   bool erase(iterator pos) { return false; }$/;"	f	class:Array	access:public	signature:(iterator pos)
+Array::iterator	/home/DJF/hw5/src/util/array.h	/^   class iterator$/;"	c	class:Array	access:public
+Array::iterator::_node	/home/DJF/hw5/src/util/array.h	/^      T*    _node;$/;"	m	class:Array::iterator	access:private
+Array::iterator::iterator	/home/DJF/hw5/src/util/array.h	/^      iterator(T* n= 0): _node(n) {}$/;"	f	class:Array::iterator	access:public	signature:(T* n= 0)
+Array::iterator::iterator	/home/DJF/hw5/src/util/array.h	/^      iterator(const iterator& i): _node(i._node) {}$/;"	f	class:Array::iterator	access:public	signature:(const iterator& i)
+Array::iterator::operator !=	/home/DJF/hw5/src/util/array.h	/^      bool operator != (const iterator& i) const { return false; }$/;"	f	class:Array::iterator	access:public	signature:(const iterator& i) const
+Array::iterator::operator *	/home/DJF/hw5/src/util/array.h	/^      T& operator * () { return (*_node); }$/;"	f	class:Array::iterator	access:public	signature:()
+Array::iterator::operator *	/home/DJF/hw5/src/util/array.h	/^      const T& operator * () const { return (*this); }$/;"	f	class:Array::iterator	access:public	signature:() const
+Array::iterator::operator +	/home/DJF/hw5/src/util/array.h	/^      iterator operator + (int i) const { return (*this); }$/;"	f	class:Array::iterator	access:public	signature:(int i) const
+Array::iterator::operator ++	/home/DJF/hw5/src/util/array.h	/^      iterator operator ++ (int) { return (*this); }$/;"	f	class:Array::iterator	access:public	signature:(int)
+Array::iterator::operator ++	/home/DJF/hw5/src/util/array.h	/^      iterator& operator ++ () { return (*this); }$/;"	f	class:Array::iterator	access:public	signature:()
+Array::iterator::operator +=	/home/DJF/hw5/src/util/array.h	/^      iterator& operator += (int i) { return (*this); }$/;"	f	class:Array::iterator	access:public	signature:(int i)
+Array::iterator::operator --	/home/DJF/hw5/src/util/array.h	/^      iterator operator -- (int) { return (*this); }$/;"	f	class:Array::iterator	access:public	signature:(int)
+Array::iterator::operator --	/home/DJF/hw5/src/util/array.h	/^      iterator& operator -- () { return (*this); }$/;"	f	class:Array::iterator	access:public	signature:()
+Array::iterator::operator =	/home/DJF/hw5/src/util/array.h	/^      iterator& operator = (const iterator& i) { return (*this); }$/;"	f	class:Array::iterator	access:public	signature:(const iterator& i)
+Array::iterator::operator ==	/home/DJF/hw5/src/util/array.h	/^      bool operator == (const iterator& i) const { return false; }$/;"	f	class:Array::iterator	access:public	signature:(const iterator& i) const
+Array::iterator::~iterator	/home/DJF/hw5/src/util/array.h	/^      ~iterator() {} \/\/ Should NOT delete _node$/;"	f	class:Array::iterator	access:public	signature:()
+Array::operator []	/home/DJF/hw5/src/util/array.h	/^   T& operator [] (size_t i) { return _data[0]; }$/;"	f	class:Array	access:public	signature:(size_t i)
+Array::operator []	/home/DJF/hw5/src/util/array.h	/^   const T& operator [] (size_t i) const { return _data[0]; }$/;"	f	class:Array	access:public	signature:(size_t i) const
+Array::pop_back	/home/DJF/hw5/src/util/array.h	/^   void pop_back() { }$/;"	f	class:Array	access:public	signature:()
+Array::pop_front	/home/DJF/hw5/src/util/array.h	/^   void pop_front() { }$/;"	f	class:Array	access:public	signature:()
+Array::push_back	/home/DJF/hw5/src/util/array.h	/^   void push_back(const T& x) { }$/;"	f	class:Array	access:public	signature:(const T& x)
+Array::size	/home/DJF/hw5/src/util/array.h	/^   size_t size() const { return 0; }$/;"	f	class:Array	access:public	signature:() const
+Array::sort	/home/DJF/hw5/src/util/array.h	/^   void sort() const { if (!empty()) ::sort(_data, _data+_size); }$/;"	f	class:Array	access:public	signature:() const
+Array::~Array	/home/DJF/hw5/src/util/array.h	/^   ~Array() { delete []_data; }$/;"	f	class:Array	access:public	signature:()
+BST_H	/home/DJF/hw5/src/util/bst.h	10;"	d
+BSTree	/home/DJF/hw5/src/util/bst.h	/^class BSTree$/;"	c
+BSTree::iterator	/home/DJF/hw5/src/util/bst.h	/^   class iterator { };$/;"	c	class:BSTree	access:private
+BSTreeNode	/home/DJF/hw5/src/util/bst.h	/^class BSTreeNode$/;"	c
+DLIST_H	/home/DJF/hw5/src/util/dlist.h	10;"	d
+DList	/home/DJF/hw5/src/util/dlist.h	/^    DList() {$/;"	f	class:DList	access:public	signature:()
+DList	/home/DJF/hw5/src/util/dlist.h	/^class DList$/;"	c
+DList::DList	/home/DJF/hw5/src/util/dlist.h	/^    DList() {$/;"	f	class:DList	access:public	signature:()
+DList::NewNode	/home/DJF/hw5/src/util/dlist.h	/^        DListNode<T>* NewNode=new DListNode<T>(x,pre,_head);$/;"	l
+DList::_first	/home/DJF/hw5/src/util/dlist.h	/^        DListNode<T>* _first=_head->_next;$/;"	l
+DList::_head	/home/DJF/hw5/src/util/dlist.h	/^    DListNode<T>*  _head;  \/\/ = dummy node if list is empty$/;"	m	class:DList	access:private
+DList::back	/home/DJF/hw5/src/util/dlist.h	/^        DListNode<T>* back=_head->_prev;$/;"	l
+DList::begin	/home/DJF/hw5/src/util/dlist.h	/^    iterator begin() const { return _head->_next; }$/;"	f	class:DList	access:public	signature:() const
+DList::clear	/home/DJF/hw5/src/util/dlist.h	/^    void clear() {$/;"	f	class:DList	access:public	signature:()
+DList::empty	/home/DJF/hw5/src/util/dlist.h	/^    bool empty() const { $/;"	f	class:DList	access:public	signature:() const
+DList::end	/home/DJF/hw5/src/util/dlist.h	/^    iterator end() const { return _head; }$/;"	f	class:DList	access:public	signature:() const
+DList::erase	/home/DJF/hw5/src/util/dlist.h	/^    bool erase(const T& x) {$/;"	f	class:DList	access:public	signature:(const T& x)
+DList::erase	/home/DJF/hw5/src/util/dlist.h	/^    bool erase(iterator pos) {$/;"	f	class:DList	access:public	signature:(iterator pos)
+DList::front	/home/DJF/hw5/src/util/dlist.h	/^        DListNode<T>* front=_head->_next;$/;"	l
+DList::i	/home/DJF/hw5/src/util/dlist.h	/^        size_t i=0;$/;"	l
+DList::it	/home/DJF/hw5/src/util/dlist.h	/^        iterator it,tmp;$/;"	l
+DList::it	/home/DJF/hw5/src/util/dlist.h	/^        iterator it;$/;"	l
+DList::iterator	/home/DJF/hw5/src/util/dlist.h	/^    class iterator$/;"	c	class:DList	access:public
+DList::iterator::_node	/home/DJF/hw5/src/util/dlist.h	/^        DListNode<T>* _node;$/;"	m	class:DList::iterator	access:private
+DList::iterator::iterator	/home/DJF/hw5/src/util/dlist.h	/^        iterator(DListNode<T>* n= 0): _node(n) {}$/;"	f	class:DList::iterator	access:public	signature:(DListNode<T>* n= 0)
+DList::iterator::iterator	/home/DJF/hw5/src/util/dlist.h	/^        iterator(const iterator& i) : _node(i._node) {}$/;"	f	class:DList::iterator	access:public	signature:(const iterator& i)
+DList::iterator::operator !=	/home/DJF/hw5/src/util/dlist.h	/^        bool operator != (const iterator& i) const { $/;"	f	class:DList::iterator	access:public	signature:(const iterator& i) const
+DList::iterator::operator *	/home/DJF/hw5/src/util/dlist.h	/^        T& operator * () { return _node->_data; }$/;"	f	class:DList::iterator	access:public	signature:()
+DList::iterator::operator *	/home/DJF/hw5/src/util/dlist.h	/^        const T& operator * () const { return _node->_data; }$/;"	f	class:DList::iterator	access:public	signature:() const
+DList::iterator::operator ++	/home/DJF/hw5/src/util/dlist.h	/^        iterator operator ++ (int) {$/;"	f	class:DList::iterator	access:public	signature:(int)
+DList::iterator::operator ++	/home/DJF/hw5/src/util/dlist.h	/^        iterator& operator ++ () {$/;"	f	class:DList::iterator	access:public	signature:()
+DList::iterator::operator --	/home/DJF/hw5/src/util/dlist.h	/^        iterator operator -- (int) {$/;"	f	class:DList::iterator	access:public	signature:(int)
+DList::iterator::operator --	/home/DJF/hw5/src/util/dlist.h	/^        iterator& operator -- () {$/;"	f	class:DList::iterator	access:public	signature:()
+DList::iterator::operator =	/home/DJF/hw5/src/util/dlist.h	/^        iterator& operator = (const iterator& i) { $/;"	f	class:DList::iterator	access:public	signature:(const iterator& i)
+DList::iterator::operator ==	/home/DJF/hw5/src/util/dlist.h	/^        bool operator == (const iterator& i) const {$/;"	f	class:DList::iterator	access:public	signature:(const iterator& i) const
+DList::iterator::tmp	/home/DJF/hw5/src/util/dlist.h	/^            iterator tmp=*this;$/;"	l
+DList::iterator::~iterator	/home/DJF/hw5/src/util/dlist.h	/^        ~iterator() {} \/\/ Should NOT delete _node$/;"	f	class:DList::iterator	access:public	signature:()
+DList::pop_back	/home/DJF/hw5/src/util/dlist.h	/^    void pop_back() {$/;"	f	class:DList	access:public	signature:()
+DList::pop_front	/home/DJF/hw5/src/util/dlist.h	/^    void pop_front() {$/;"	f	class:DList	access:public	signature:()
+DList::pre	/home/DJF/hw5/src/util/dlist.h	/^        DListNode<T>* pre=_head->_prev;$/;"	l
+DList::push_back	/home/DJF/hw5/src/util/dlist.h	/^    void push_back(const T& x) {$/;"	f	class:DList	access:public	signature:(const T& x)
+DList::size	/home/DJF/hw5/src/util/dlist.h	/^    size_t size() const {$/;"	f	class:DList	access:public	signature:() const
+DList::sort	/home/DJF/hw5/src/util/dlist.h	/^    void sort() const { }$/;"	f	class:DList	access:public	signature:() const
+DList::tmp	/home/DJF/hw5/src/util/dlist.h	/^            DListNode<T>* tmp=_first->_next;$/;"	l
+DList::tmp	/home/DJF/hw5/src/util/dlist.h	/^        iterator it,tmp;$/;"	l
+DList::~DList	/home/DJF/hw5/src/util/dlist.h	/^    ~DList() { clear(); delete _head; }$/;"	f	class:DList	access:public	signature:()
+DListNode	/home/DJF/hw5/src/util/dlist.h	/^    DListNode(const T& d, DListNode<T>* p = 0, DListNode<T>* n = 0):$/;"	f	class:DListNode	access:private	signature:(const T& d, DListNode<T>* p = 0, DListNode<T>* n = 0)
+DListNode	/home/DJF/hw5/src/util/dlist.h	/^class DListNode$/;"	c
+DListNode::DListNode	/home/DJF/hw5/src/util/dlist.h	/^    DListNode(const T& d, DListNode<T>* p = 0, DListNode<T>* n = 0):$/;"	f	class:DListNode	access:private	signature:(const T& d, DListNode<T>* p = 0, DListNode<T>* n = 0)
+DListNode::_data	/home/DJF/hw5/src/util/dlist.h	/^    T              _data;$/;"	m	class:DListNode	access:private
+DListNode::_next	/home/DJF/hw5/src/util/dlist.h	/^    DListNode<T>*  _next;$/;"	m	class:DListNode	access:private
+DListNode::_prev	/home/DJF/hw5/src/util/dlist.h	/^    DListNode<T>*  _prev;$/;"	m	class:DListNode	access:private
+EXTHDRS	/home/DJF/hw5/src/util/Makefile	/^EXTHDRS   = util.h rnGen.h myUsage.h dlist.h array.h bst.h$/;"	m
+MYCLK_TCK	/home/DJF/hw5/src/util/myUsage.h	21;"	d
+MYCLK_TCK	/home/DJF/hw5/src/util/myUsage.h	22;"	d
+MY_USAGE_H	/home/DJF/hw5/src/util/myUsage.h	10;"	d
+MyUsage	/home/DJF/hw5/src/util/myUsage.h	/^   MyUsage() { reset(); }$/;"	f	class:MyUsage	access:public	signature:()
+MyUsage	/home/DJF/hw5/src/util/myUsage.h	/^class MyUsage$/;"	c
+MyUsage::MyUsage	/home/DJF/hw5/src/util/myUsage.h	/^   MyUsage() { reset(); }$/;"	f	class:MyUsage	access:public	signature:()
+MyUsage::_currentMem	/home/DJF/hw5/src/util/myUsage.h	/^   double     _currentMem;$/;"	m	class:MyUsage	access:private
+MyUsage::_currentTick	/home/DJF/hw5/src/util/myUsage.h	/^   double     _currentTick;$/;"	m	class:MyUsage	access:private
+MyUsage::_initMem	/home/DJF/hw5/src/util/myUsage.h	/^   double     _initMem;$/;"	m	class:MyUsage	access:private
+MyUsage::_periodUsedTime	/home/DJF/hw5/src/util/myUsage.h	/^   double     _periodUsedTime;$/;"	m	class:MyUsage	access:private
+MyUsage::_totalUsedTime	/home/DJF/hw5/src/util/myUsage.h	/^   double     _totalUsedTime;$/;"	m	class:MyUsage	access:private
+MyUsage::checkMem	/home/DJF/hw5/src/util/myUsage.h	/^   double checkMem() const {$/;"	f	class:MyUsage	access:private	signature:() const
+MyUsage::checkTick	/home/DJF/hw5/src/util/myUsage.h	/^   double checkTick() const {$/;"	f	class:MyUsage	access:private	signature:() const
+MyUsage::endl	/home/DJF/hw5/src/util/myUsage.h	/^              << _currentMem << " M Bytes" << endl;$/;"	l
+MyUsage::endl	/home/DJF/hw5/src/util/myUsage.h	/^              << _periodUsedTime << " seconds" << endl;$/;"	l
+MyUsage::endl	/home/DJF/hw5/src/util/myUsage.h	/^              << _totalUsedTime << " seconds" << endl;$/;"	l
+MyUsage::report	/home/DJF/hw5/src/util/myUsage.h	/^   void report(bool repTime, bool repMem) {$/;"	f	class:MyUsage	access:public	signature:(bool repTime, bool repMem)
+MyUsage::reset	/home/DJF/hw5/src/util/myUsage.h	/^   void reset() {$/;"	f	class:MyUsage	access:public	signature:()
+MyUsage::setMemUsage	/home/DJF/hw5/src/util/myUsage.h	/^   void setMemUsage() { _currentMem = checkMem() - _initMem; }$/;"	f	class:MyUsage	access:private	signature:()
+MyUsage::setTimeUsage	/home/DJF/hw5/src/util/myUsage.h	/^   void setTimeUsage() {$/;"	f	class:MyUsage	access:private	signature:()
+MyUsage::tBuffer	/home/DJF/hw5/src/util/myUsage.h	/^      tms tBuffer;$/;"	l
+MyUsage::thisTick	/home/DJF/hw5/src/util/myUsage.h	/^      double thisTick = checkTick();$/;"	l
+MyUsage::usage	/home/DJF/hw5/src/util/myUsage.h	/^      struct rusage usage;$/;"	l
+NewNode	/home/DJF/hw5/src/util/dlist.h	/^        DListNode<T>* NewNode=new DListNode<T>(x,pre,_head);$/;"	l
+PKGFLAG	/home/DJF/hw5/src/util/Makefile	/^PKGFLAG   =$/;"	m
+RN_GEN_H	/home/DJF/hw5/src/util/rnGen.h	9;"	d
+RandomNumGen	/home/DJF/hw5/src/util/rnGen.h	/^      RandomNumGen() { my_srandom(getpid()); }$/;"	f	class:RandomNumGen	access:public	signature:()
+RandomNumGen	/home/DJF/hw5/src/util/rnGen.h	/^      RandomNumGen(unsigned seed) { my_srandom(seed); }$/;"	f	class:RandomNumGen	access:public	signature:(unsigned seed)
+RandomNumGen	/home/DJF/hw5/src/util/rnGen.h	/^class RandomNumGen$/;"	c
+RandomNumGen::RandomNumGen	/home/DJF/hw5/src/util/rnGen.h	/^      RandomNumGen() { my_srandom(getpid()); }$/;"	f	class:RandomNumGen	access:public	signature:()
+RandomNumGen::RandomNumGen	/home/DJF/hw5/src/util/rnGen.h	/^      RandomNumGen(unsigned seed) { my_srandom(seed); }$/;"	f	class:RandomNumGen	access:public	signature:(unsigned seed)
+RandomNumGen::getpid	/home/DJF/hw5/src/util/rnGen.h	/^      RandomNumGen() { my_srandom(getpid()); }$/;"	p	signature:()
+RandomNumGen::operator ()	/home/DJF/hw5/src/util/rnGen.h	/^      const int operator() (const int range) const {$/;"	f	class:RandomNumGen	access:public	signature:(const int range) const
+UTIL_H	/home/DJF/hw5/src/util/util.h	9;"	d
+_capacity	/home/DJF/hw5/src/util/array.h	/^   size_t       _capacity;   \/\/ max number of elements$/;"	m	class:Array	access:private
+_currentMem	/home/DJF/hw5/src/util/myUsage.h	/^   double     _currentMem;$/;"	m	class:MyUsage	access:private
+_currentTick	/home/DJF/hw5/src/util/myUsage.h	/^   double     _currentTick;$/;"	m	class:MyUsage	access:private
+_data	/home/DJF/hw5/src/util/array.h	/^   T*           _data;$/;"	m	class:Array	access:private
+_data	/home/DJF/hw5/src/util/dlist.h	/^    T              _data;$/;"	m	class:DListNode	access:private
+_first	/home/DJF/hw5/src/util/dlist.h	/^        DListNode<T>* _first=_head->_next;$/;"	l
+_head	/home/DJF/hw5/src/util/dlist.h	/^    DListNode<T>*  _head;  \/\/ = dummy node if list is empty$/;"	m	class:DList	access:private
+_initMem	/home/DJF/hw5/src/util/myUsage.h	/^   double     _initMem;$/;"	m	class:MyUsage	access:private
+_next	/home/DJF/hw5/src/util/dlist.h	/^    DListNode<T>*  _next;$/;"	m	class:DListNode	access:private
+_node	/home/DJF/hw5/src/util/array.h	/^      T*    _node;$/;"	m	class:Array::iterator	access:private
+_node	/home/DJF/hw5/src/util/dlist.h	/^        DListNode<T>* _node;$/;"	m	class:DList::iterator	access:private
+_periodUsedTime	/home/DJF/hw5/src/util/myUsage.h	/^   double     _periodUsedTime;$/;"	m	class:MyUsage	access:private
+_prev	/home/DJF/hw5/src/util/dlist.h	/^    DListNode<T>*  _prev;$/;"	m	class:DListNode	access:private
+_size	/home/DJF/hw5/src/util/array.h	/^   size_t       _size;       \/\/ number of valid elements$/;"	m	class:Array	access:private
+_totalUsedTime	/home/DJF/hw5/src/util/myUsage.h	/^   double     _totalUsedTime;$/;"	m	class:MyUsage	access:private
+back	/home/DJF/hw5/src/util/dlist.h	/^        DListNode<T>* back=_head->_prev;$/;"	l
+begin	/home/DJF/hw5/src/util/array.h	/^   iterator begin() const { return 0; }$/;"	f	class:Array	access:public	signature:() const
+begin	/home/DJF/hw5/src/util/dlist.h	/^    iterator begin() const { return _head->_next; }$/;"	f	class:DList	access:public	signature:() const
+begin	/home/DJF/hw5/src/util/myString.cpp	/^   size_t begin = str.find_first_not_of(del, pos);$/;"	l
+ch	/home/DJF/hw5/src/util/myGetChar.cpp	/^   char ch;$/;"	l
+ch	/home/DJF/hw5/src/util/myGetChar.cpp	/^   istr >> ch;$/;"	l
+ch1	/home/DJF/hw5/src/util/myString.cpp	/^      char ch1 = (isupper(s1[i]))? tolower(s1[i]) : s1[i];$/;"	l
+ch2	/home/DJF/hw5/src/util/myString.cpp	/^      char ch2 = (isupper(s2[i]))? tolower(s2[i]) : s2[i];$/;"	l
+checkMem	/home/DJF/hw5/src/util/myUsage.h	/^   double checkMem() const {$/;"	f	class:MyUsage	access:private	signature:() const
+checkTick	/home/DJF/hw5/src/util/myUsage.h	/^   double checkTick() const {$/;"	f	class:MyUsage	access:private	signature:() const
+clear	/home/DJF/hw5/src/util/array.h	/^   void clear() { }$/;"	f	class:Array	access:public	signature:()
+clear	/home/DJF/hw5/src/util/dlist.h	/^    void clear() {$/;"	f	class:DList	access:public	signature:()
+empty	/home/DJF/hw5/src/util/array.h	/^   bool empty() const { return false; }$/;"	f	class:Array	access:public	signature:() const
+empty	/home/DJF/hw5/src/util/dlist.h	/^    bool empty() const { $/;"	f	class:DList	access:public	signature:() const
+end	/home/DJF/hw5/src/util/array.h	/^   iterator end() const { return 0; }$/;"	f	class:Array	access:public	signature:() const
+end	/home/DJF/hw5/src/util/dlist.h	/^    iterator end() const { return _head; }$/;"	f	class:DList	access:public	signature:() const
+end	/home/DJF/hw5/src/util/myString.cpp	/^   size_t end = str.find_first_of(del, begin);$/;"	l
+endl	/home/DJF/hw5/src/util/myUsage.h	/^              << _currentMem << " M Bytes" << endl;$/;"	l
+endl	/home/DJF/hw5/src/util/myUsage.h	/^              << _periodUsedTime << " seconds" << endl;$/;"	l
+endl	/home/DJF/hw5/src/util/myUsage.h	/^              << _totalUsedTime << " seconds" << endl;$/;"	l
+erase	/home/DJF/hw5/src/util/array.h	/^   bool erase(const T& x) { return false; }$/;"	f	class:Array	access:public	signature:(const T& x)
+erase	/home/DJF/hw5/src/util/array.h	/^   bool erase(iterator pos) { return false; }$/;"	f	class:Array	access:public	signature:(iterator pos)
+erase	/home/DJF/hw5/src/util/dlist.h	/^    bool erase(const T& x) {$/;"	f	class:DList	access:public	signature:(const T& x)
+erase	/home/DJF/hw5/src/util/dlist.h	/^    bool erase(iterator pos) {$/;"	f	class:DList	access:public	signature:(iterator pos)
+front	/home/DJF/hw5/src/util/dlist.h	/^        DListNode<T>* front=_head->_next;$/;"	l
+getpid	/home/DJF/hw5/src/util/rnGen.h	/^      RandomNumGen() { my_srandom(getpid()); }$/;"	p	signature:()
+i	/home/DJF/hw5/src/util/dlist.h	/^        size_t i=0;$/;"	l
+i	/home/DJF/hw5/src/util/myString.cpp	/^   size_t i = 0;$/;"	l
+isValidVarName	/home/DJF/hw5/src/util/myString.cpp	/^isValidVarName(const string& str)$/;"	f	signature:(const string& str)
+isValidVarName	/home/DJF/hw5/src/util/util.h	/^extern bool isValidVarName(const string& str);$/;"	p	signature:(const string& str)
+it	/home/DJF/hw5/src/util/dlist.h	/^        iterator it,tmp;$/;"	l
+it	/home/DJF/hw5/src/util/dlist.h	/^        iterator it;$/;"	l
+iterator	/home/DJF/hw5/src/util/array.h	/^      iterator(T* n= 0): _node(n) {}$/;"	f	class:Array::iterator	access:public	signature:(T* n= 0)
+iterator	/home/DJF/hw5/src/util/array.h	/^      iterator(const iterator& i): _node(i._node) {}$/;"	f	class:Array::iterator	access:public	signature:(const iterator& i)
+iterator	/home/DJF/hw5/src/util/array.h	/^   class iterator$/;"	c	class:Array	access:public
+iterator	/home/DJF/hw5/src/util/bst.h	/^   class iterator { };$/;"	c	class:BSTree	access:private
+iterator	/home/DJF/hw5/src/util/dlist.h	/^        iterator(DListNode<T>* n= 0): _node(n) {}$/;"	f	class:DList::iterator	access:public	signature:(DListNode<T>* n= 0)
+iterator	/home/DJF/hw5/src/util/dlist.h	/^        iterator(const iterator& i) : _node(i._node) {}$/;"	f	class:DList::iterator	access:public	signature:(const iterator& i)
+iterator	/home/DJF/hw5/src/util/dlist.h	/^    class iterator$/;"	c	class:DList	access:public
+l	/home/DJF/hw5/src/util/myString.cpp	/^   unsigned l = s1.size();$/;"	l
+myGetChar	/home/DJF/hw5/src/util/myGetChar.cpp	/^char myGetChar()$/;"	f	signature:()
+myGetChar	/home/DJF/hw5/src/util/myGetChar.cpp	/^char myGetChar(istream& istr)$/;"	f	signature:(istream& istr)
+myGetChar	/home/DJF/hw5/src/util/util.h	/^extern char myGetChar();$/;"	p	signature:()
+myGetChar	/home/DJF/hw5/src/util/util.h	/^extern char myGetChar(istream&);$/;"	p	signature:(istream&)
+myStr2Int	/home/DJF/hw5/src/util/myString.cpp	/^myStr2Int(const string& str, int& num)$/;"	f	signature:(const string& str, int& num)
+myStr2Int	/home/DJF/hw5/src/util/util.h	/^extern bool myStr2Int(const string& str, int& num);$/;"	p	signature:(const string& str, int& num)
+myStrGetTok	/home/DJF/hw5/src/util/myString.cpp	/^myStrGetTok(const string& str, string& tok, size_t pos = 0,$/;"	f	signature:(const string& str, string& tok, size_t pos = 0, const char del = Ã)
+myStrGetTok	/home/DJF/hw5/src/util/util.h	/^extern size_t myStrGetTok(const string& str, string& tok, size_t pos = 0,$/;"	p	signature:(const string& str, string& tok, size_t pos = 0, const char del = Ã)
+myStrNCmp	/home/DJF/hw5/src/util/myString.cpp	/^myStrNCmp(const string& s1, const string& s2, unsigned n)$/;"	f	signature:(const string& s1, const string& s2, unsigned n)
+myStrNCmp	/home/DJF/hw5/src/util/util.h	/^extern int myStrNCmp(const string& s1, const string& s2, unsigned n);$/;"	p	signature:(const string& s1, const string& s2, unsigned n)
+myUsage	/home/DJF/hw5/src/util/util.cpp	/^MyUsage       myUsage;$/;"	v
+my_random	/home/DJF/hw5/src/util/rnGen.h	17;"	d
+my_srandom	/home/DJF/hw5/src/util/rnGen.h	16;"	d
+n	/home/DJF/hw5/src/util/myString.cpp	/^   size_t n = str.size();$/;"	l
+new_settings	/home/DJF/hw5/src/util/myGetChar.cpp	/^   struct termios new_settings;$/;"	l
+operator !=	/home/DJF/hw5/src/util/array.h	/^      bool operator != (const iterator& i) const { return false; }$/;"	f	class:Array::iterator	access:public	signature:(const iterator& i) const
+operator !=	/home/DJF/hw5/src/util/dlist.h	/^        bool operator != (const iterator& i) const { $/;"	f	class:DList::iterator	access:public	signature:(const iterator& i) const
+operator ()	/home/DJF/hw5/src/util/rnGen.h	/^      const int operator() (const int range) const {$/;"	f	class:RandomNumGen	access:public	signature:(const int range) const
+operator *	/home/DJF/hw5/src/util/array.h	/^      T& operator * () { return (*_node); }$/;"	f	class:Array::iterator	access:public	signature:()
+operator *	/home/DJF/hw5/src/util/array.h	/^      const T& operator * () const { return (*this); }$/;"	f	class:Array::iterator	access:public	signature:() const
+operator *	/home/DJF/hw5/src/util/dlist.h	/^        T& operator * () { return _node->_data; }$/;"	f	class:DList::iterator	access:public	signature:()
+operator *	/home/DJF/hw5/src/util/dlist.h	/^        const T& operator * () const { return _node->_data; }$/;"	f	class:DList::iterator	access:public	signature:() const
+operator +	/home/DJF/hw5/src/util/array.h	/^      iterator operator + (int i) const { return (*this); }$/;"	f	class:Array::iterator	access:public	signature:(int i) const
+operator ++	/home/DJF/hw5/src/util/array.h	/^      iterator operator ++ (int) { return (*this); }$/;"	f	class:Array::iterator	access:public	signature:(int)
+operator ++	/home/DJF/hw5/src/util/array.h	/^      iterator& operator ++ () { return (*this); }$/;"	f	class:Array::iterator	access:public	signature:()
+operator ++	/home/DJF/hw5/src/util/dlist.h	/^        iterator operator ++ (int) {$/;"	f	class:DList::iterator	access:public	signature:(int)
+operator ++	/home/DJF/hw5/src/util/dlist.h	/^        iterator& operator ++ () {$/;"	f	class:DList::iterator	access:public	signature:()
+operator +=	/home/DJF/hw5/src/util/array.h	/^      iterator& operator += (int i) { return (*this); }$/;"	f	class:Array::iterator	access:public	signature:(int i)
+operator --	/home/DJF/hw5/src/util/array.h	/^      iterator operator -- (int) { return (*this); }$/;"	f	class:Array::iterator	access:public	signature:(int)
+operator --	/home/DJF/hw5/src/util/array.h	/^      iterator& operator -- () { return (*this); }$/;"	f	class:Array::iterator	access:public	signature:()
+operator --	/home/DJF/hw5/src/util/dlist.h	/^        iterator operator -- (int) {$/;"	f	class:DList::iterator	access:public	signature:(int)
+operator --	/home/DJF/hw5/src/util/dlist.h	/^        iterator& operator -- () {$/;"	f	class:DList::iterator	access:public	signature:()
+operator =	/home/DJF/hw5/src/util/array.h	/^      iterator& operator = (const iterator& i) { return (*this); }$/;"	f	class:Array::iterator	access:public	signature:(const iterator& i)
+operator =	/home/DJF/hw5/src/util/dlist.h	/^        iterator& operator = (const iterator& i) { $/;"	f	class:DList::iterator	access:public	signature:(const iterator& i)
+operator ==	/home/DJF/hw5/src/util/array.h	/^      bool operator == (const iterator& i) const { return false; }$/;"	f	class:Array::iterator	access:public	signature:(const iterator& i) const
+operator ==	/home/DJF/hw5/src/util/dlist.h	/^        bool operator == (const iterator& i) const {$/;"	f	class:DList::iterator	access:public	signature:(const iterator& i) const
+operator []	/home/DJF/hw5/src/util/array.h	/^   T& operator [] (size_t i) { return _data[0]; }$/;"	f	class:Array	access:public	signature:(size_t i)
+operator []	/home/DJF/hw5/src/util/array.h	/^   const T& operator [] (size_t i) const { return _data[0]; }$/;"	f	class:Array	access:public	signature:(size_t i) const
+pop_back	/home/DJF/hw5/src/util/array.h	/^   void pop_back() { }$/;"	f	class:Array	access:public	signature:()
+pop_back	/home/DJF/hw5/src/util/dlist.h	/^    void pop_back() {$/;"	f	class:DList	access:public	signature:()
+pop_front	/home/DJF/hw5/src/util/array.h	/^   void pop_front() { }$/;"	f	class:Array	access:public	signature:()
+pop_front	/home/DJF/hw5/src/util/dlist.h	/^    void pop_front() {$/;"	f	class:DList	access:public	signature:()
+pre	/home/DJF/hw5/src/util/dlist.h	/^        DListNode<T>* pre=_head->_prev;$/;"	l
+push_back	/home/DJF/hw5/src/util/array.h	/^   void push_back(const T& x) { }$/;"	f	class:Array	access:public	signature:(const T& x)
+push_back	/home/DJF/hw5/src/util/dlist.h	/^    void push_back(const T& x) {$/;"	f	class:DList	access:public	signature:(const T& x)
+report	/home/DJF/hw5/src/util/myUsage.h	/^   void report(bool repTime, bool repMem) {$/;"	f	class:MyUsage	access:public	signature:(bool repTime, bool repMem)
+reset	/home/DJF/hw5/src/util/myUsage.h	/^   void reset() {$/;"	f	class:MyUsage	access:public	signature:()
+reset_keypress	/home/DJF/hw5/src/util/myGetChar.cpp	/^static void reset_keypress(void)$/;"	f	file:	signature:(void)
+setMemUsage	/home/DJF/hw5/src/util/myUsage.h	/^   void setMemUsage() { _currentMem = checkMem() - _initMem; }$/;"	f	class:MyUsage	access:private	signature:()
+setTimeUsage	/home/DJF/hw5/src/util/myUsage.h	/^   void setTimeUsage() {$/;"	f	class:MyUsage	access:private	signature:()
+set_keypress	/home/DJF/hw5/src/util/myGetChar.cpp	/^static void set_keypress(void)$/;"	f	file:	signature:(void)
+setf	/home/DJF/hw5/src/util/myGetChar.cpp	/^   istr.setf(ios_base::skipws);$/;"	p	file:	signature:(ios_base::skipws)
+sign	/home/DJF/hw5/src/util/myString.cpp	/^   int sign = 1;$/;"	l
+size	/home/DJF/hw5/src/util/array.h	/^   size_t size() const { return 0; }$/;"	f	class:Array	access:public	signature:() const
+size	/home/DJF/hw5/src/util/dlist.h	/^    size_t size() const {$/;"	f	class:DList	access:public	signature:() const
+sort	/home/DJF/hw5/src/util/array.h	/^   void sort() const { if (!empty()) ::sort(_data, _data+_size); }$/;"	f	class:Array	access:public	signature:() const
+sort	/home/DJF/hw5/src/util/dlist.h	/^    void sort() const { }$/;"	f	class:DList	access:public	signature:() const
+stored_settings	/home/DJF/hw5/src/util/myGetChar.cpp	/^static struct termios stored_settings;$/;"	v	typeref:struct:termios	file:
+tBuffer	/home/DJF/hw5/src/util/myUsage.h	/^      tms tBuffer;$/;"	l
+thisTick	/home/DJF/hw5/src/util/myUsage.h	/^      double thisTick = checkTick();$/;"	l
+tmp	/home/DJF/hw5/src/util/dlist.h	/^            DListNode<T>* tmp=_first->_next;$/;"	l
+tmp	/home/DJF/hw5/src/util/dlist.h	/^            iterator tmp=*this;$/;"	l
+tmp	/home/DJF/hw5/src/util/dlist.h	/^        iterator it,tmp;$/;"	l
+unsetf	/home/DJF/hw5/src/util/myGetChar.cpp	/^   istr.unsetf(ios_base::skipws);$/;"	p	file:	signature:(ios_base::skipws)
+usage	/home/DJF/hw5/src/util/myUsage.h	/^      struct rusage usage;$/;"	l
+valid	/home/DJF/hw5/src/util/myString.cpp	/^   bool valid = false;$/;"	l
+~Array	/home/DJF/hw5/src/util/array.h	/^   ~Array() { delete []_data; }$/;"	f	class:Array	access:public	signature:()
+~DList	/home/DJF/hw5/src/util/dlist.h	/^    ~DList() { clear(); delete _head; }$/;"	f	class:DList	access:public	signature:()
+~iterator	/home/DJF/hw5/src/util/array.h	/^      ~iterator() {} \/\/ Should NOT delete _node$/;"	f	class:Array::iterator	access:public	signature:()
+~iterator	/home/DJF/hw5/src/util/dlist.h	/^        ~iterator() {} \/\/ Should NOT delete _node$/;"	f	class:DList::iterator	access:public	signature:()

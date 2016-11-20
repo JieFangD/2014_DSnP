@@ -1,0 +1,19 @@
+(gdb) run
+Program received signal SIGSEGV, Segmentation fault.
+0x000000395aaa30da in ?? () from /usr/lib64/libstdc++.so.6
+
+(gdb) where
+#0  0x000000395aaa30da in ?? () from /usr/lib64/libstdc++.so.6
+#1  0x000000395aaa4506 in std::basic_string<char, std::char_traits<char>, std::allocator<char> >::assign(std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) () from /usr/lib64/libstdc++.so.6
+#2  0x0000000000400ddb in P1a::assign (this=0x602010, s="I") at p1a.cpp:8
+#3  0x0000000000400b8d in main () at p1.bug.cpp:19
+
+在p1.bug.cpp的第19行出錯，但語法並沒有錯，
+從P1a *p1 = (P1a*)malloc(sizeof(P1a));可以發現這p1指到的只是個記憶體空間，並不是一個object，
+所以p1->assign("I");會出錯。若我們將
+P1a *p1 = (P1a*)malloc(sizeof(P1a));
+P1a *p2 = (P1a*)malloc(sizeof(P1a));
+改成
+P1a *p1 = new P1a();
+P1a *p2 = new P1a();
+即可成功輸出I love DSnP!!
